@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="https://sanguinebio.com/wp-content/uploads/2021/03/cropped-favicon-32x32.png" sizes="32x32">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./src/index.css">
+  <link rel="stylesheet" href="./src/app.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+  <title>Sanguine Search POC</title>
+</head>
+
+<body>
+
+  <div class="ais-InstantSearch">
+    <img src="https://sanguinebio.com/wp-content/uploads//2021/03/logo-dark.svg" >
+    <h1>Sanguine Search POC</h1>
+  
+    <div class="panel">
+      <div id="searchbox"></div>
+      <div id="hits"></div>
+      <!-- <div id="pagination"></div> -->
+    </div>
+    <div id="container">
+      <h3 style="font-weight: bold;"> Are you a researcher? </h3>
+      <p id="cta-text"> Find out how Sanguine can help accelerate your study. </p>
+      <a id="cta" class="btn btn-primary btn-lg" href="https://sanguinebio.com/request-a-quote/" target="_blank"> Learn More </a>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.10.5/dist/algoliasearch-lite.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.30.1"></script>
+  <script src="./src/app.js"></script>
+</body>
+
+</html>
