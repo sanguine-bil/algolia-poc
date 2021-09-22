@@ -31,10 +31,10 @@ search.addWidgets([
             <!--  <h2> {{#helpers.highlight}}{ "attribute": "condition"}{{/helpers.highlight}} </h2> <p class="label"><i class="fas fa-notes-medical"></i>Patient Condition </p> -->
           </div>
           <div class="column">
-            <h2 class="data-point"> {{no_of_patients}} </h2> <p class="label"><i class="fas fa-users"></i> Patient Community </p> 
+            <h2 class="data-point"> {{patient_community}} </h2> <p class="label"><i class="fas fa-users"></i> Patient Community </p> 
           </div>  
           <div class="column">
-            <h2 class="data-point"> {{no_of_studies}} </h2> <p class="label"><i class="fas fa-vial"></i> Unique Studies </p> 
+            <h2 class="data-point"> {{studies}} </h2> <p class="label"><i class="fas fa-vial"></i> Unique Studies </p> 
           </div>
           </div> 
           <div class="hit-description">
