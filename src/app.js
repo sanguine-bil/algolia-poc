@@ -2,12 +2,12 @@
 const { algoliasearch, instantsearch } = window;
 
 const searchClient = algoliasearch(
-  '9G56ICKP8M',
-  '78901e81a81e9111fc4b70ebe3c103a0'
+  'JU1R1NN06A',
+  'd17551afd50c31c2045dbd1190783e43'
 );
 
 const search = instantsearch({
-  indexName: 'dev_poc',
+  indexName: 'dev_conditions',
   searchClient,
 });
 
